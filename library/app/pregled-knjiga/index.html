@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../dist/pregled-knjiga/knjige.css" />
+    <title>Knjige</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="title">OnlineLib</h1>
+      <ul class="nav-links">
+        <li><a href="contact/contact.html">Kontakt</a></li>
+        <li>
+          <a href="../moje-knjige/">Moje knjige</a>
+        </li>
+        <li><a href="../pregled-knjiga/">Pregled Knjiga</a></li>
+      </ul>
+    </nav>
+    <h2>Dobrodošli u Online knjižaru</h2>
+    <section>
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Br</th>
+              <th>Naziv</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="table-data">
+           
+          </tbody>
+        </table>
+      </div>
+      
+        <form action="#">
+          <div>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" id="naziv" />
+          </div>
+          
+          <div>
+            <label for="tip">Tip:</label>
+            <input type="text" name="tip" id="tip" />
+          </div>
+          <div>
+            <label for="slika">Slika:</label>
+            <input type="text" name="slika" id="slika" />
+          </div>
+          <div class="btnBox"><button class="submitBtn">Dodaj</button></div>
+        </form>
+      </div>
+    </section>
+    <script src="./pregledKnjiga.js"></script>
+  </body>
+</html>
